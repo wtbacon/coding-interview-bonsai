@@ -2,5 +2,5 @@ from .solution import Solution
 
 
 def test_example():
-    s = Solution()
+    _ = Solution()
     assert True is True

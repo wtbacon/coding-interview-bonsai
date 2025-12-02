@@ -1,4 +1,4 @@
-# Contains Duplicate (e.g.)
+# (e.g.) Contains Duplicate
 
 - Pattern: Arrays & Hashing
 
