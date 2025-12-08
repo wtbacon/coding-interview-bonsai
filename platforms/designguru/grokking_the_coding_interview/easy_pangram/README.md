@@ -1,6 +1,6 @@
 # Pangram
 
-- Pattern: Arrays & Hashing, String
+- Pattern: Arrays, HashSet
 
 ## Problem (write in your words)
 

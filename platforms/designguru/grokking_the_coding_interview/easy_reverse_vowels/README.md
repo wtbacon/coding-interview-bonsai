@@ -1,13 +1,12 @@
-# (e.g.) Contains Duplicate
+# Reverse Vowels (easy)
 
 - Pattern: Arrays & Hashing
 
-## Problem (write in your words)
+## Problem
 
-Given an integer array `nums`, return `True` if any value appears at least twice, otherwise return `False`.
 
 ## Notes
 
 - Time: O(n)
 - Space: O(n)
-- Approach: Use a set to track seen elements.
+- Approach: 
