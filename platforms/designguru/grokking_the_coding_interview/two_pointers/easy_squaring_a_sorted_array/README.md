@@ -1,8 +1,8 @@
-# (e.g.) Contains Duplicate
+# Squaring a Sorted Array
 
-- Pattern: Arrays & Hashing
+- Pattern: 
 
-## Problem (write in your words)
+## Problem
 
 Given an integer array `nums`, return `True` if any value appears at least twice, otherwise return `False`.
 
@@ -10,4 +10,4 @@ Given an integer array `nums`, return `True` if any value appears at least twice
 
 - Time: $O(N)$
 - Space: $O(N)$
-- Approach: Use a set to track seen elements.
+- Approach: 
