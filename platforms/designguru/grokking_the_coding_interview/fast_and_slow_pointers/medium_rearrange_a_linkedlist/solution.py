@@ -25,6 +25,7 @@ class Solution:
             second_half_head.next = first_half_head
             second_half_head = tmp
 
+        # If the first_half_head node end at the slow node, a self-loop happens on the node.
         if first_half_head is not None:
             first_half_head.next = None
 
