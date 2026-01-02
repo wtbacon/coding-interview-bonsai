@@ -42,3 +42,4 @@
 - [x] [Middle of the LinkedList](platforms/designguru/grokking_the_coding_interview/fast_and_slow_pointers/easy_middle_of_the_linkedlist) - Easy
 - [▵] [Start of LinkedList Cycle](platforms/designguru/grokking_the_coding_interview/fast_and_slow_pointers/medium_start_of_linkedlist_cycle) - Medium
 - [▵] [Happy Number](platforms/designguru/grokking_the_coding_interview/fast_and_slow_pointers/medium_happy_number) - Medium
+- [▵] [Rearrange a LinkedList](platforms/designguru/grokking_the_coding_interview/fast_and_slow_pointers/medium_rearrange_a_linkedlist) - Medium
