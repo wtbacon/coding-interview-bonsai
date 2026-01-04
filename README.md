@@ -55,3 +55,4 @@
 - [x] [Longest Substring with K Distinct Characters](platforms/designguru/grokking_the_coding_interview/sliding_window/hard_longest_substring_with_k_distinct_characters) - Medium
 - [x] [Fruits into Baskets](platforms/designguru/grokking_the_coding_interview/sliding_window/medium_fruits_into_baskets) - Medium
 - [▵] [Longest Substring with Same Letters after Replacement](platforms/designguru/grokking_the_coding_interview/sliding_window/hard_longest_substring_with_same_letters_after_replacement) - Hard
+- [x] [Longest Substring with Ones after Replacement](platforms/designguru/grokking_the_coding_interview/sliding_window/hard_longest_substring_with_ones_after_replacement) - Hard
