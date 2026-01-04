@@ -42,5 +42,16 @@
 - [x] [Middle of the LinkedList](platforms/designguru/grokking_the_coding_interview/fast_and_slow_pointers/easy_middle_of_the_linkedlist) - Easy
 - [▵] [Start of LinkedList Cycle](platforms/designguru/grokking_the_coding_interview/fast_and_slow_pointers/medium_start_of_linkedlist_cycle) - Medium
 - [▵] [Happy Number](platforms/designguru/grokking_the_coding_interview/fast_and_slow_pointers/medium_happy_number) - Medium
+- [▵] [Palindrome LinkedList](platforms/designguru/grokking_the_coding_interview/fast_and_slow_pointers/hard_palindrome_linkedlist) - Hard
 - [▵] [Rearrange a LinkedList](platforms/designguru/grokking_the_coding_interview/fast_and_slow_pointers/medium_rearrange_a_linkedlist) - Medium
 - [▵] [Cycle in a Circular Array](platforms/designguru/grokking_the_coding_interview/fast_and_slow_pointers/hard_cycle_in_a_circular_array) - Hard
+
+#### Sliding Window
+
+---
+
+- [x] [Maximum Sum Subarray of Size K](platforms/designguru/grokking_the_coding_interview/sliding_window/easy_maximum_sum_subarray_of_size_k) - Easy
+- [x] [Smallest Subarray with a Greater Sum](platforms/designguru/grokking_the_coding_interview/sliding_window/medium_smallest_subarray_with_a_greater_sum) - Easy
+- [x] [Longest Substring with K Distinct Characters](platforms/designguru/grokking_the_coding_interview/sliding_window/hard_longest_substring_with_k_distinct_characters) - Medium
+- [x] [Fruits into Baskets](platforms/designguru/grokking_the_coding_interview/sliding_window/medium_fruits_into_baskets) - Medium
+- [▵] [Longest Substring with Same Letters after Replacement](platforms/designguru/grokking_the_coding_interview/sliding_window/hard_longest_substring_with_same_letters_after_replacement) - Hard

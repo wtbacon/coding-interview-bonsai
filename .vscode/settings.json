@@ -2,7 +2,13 @@
   "python.testing.pytestArgs": ["."],
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
-  "python.analysis.ignore": ["**/fast_and_slow_pointers/**"],
-  "mypy-type-checker.ignorePatterns": ["**/fast_and_slow_pointers/**"],
+  "python.analysis.ignore": [
+    "**/fast_and_slow_pointers/**",
+    "**/sliding_window/**"
+  ],
+  "mypy-type-checker.ignorePatterns": [
+    "**/fast_and_slow_pointers/**",
+    "**/sliding_window/**"
+  ],
   "cSpell.words": ["nums", "Subarray"]
 }
