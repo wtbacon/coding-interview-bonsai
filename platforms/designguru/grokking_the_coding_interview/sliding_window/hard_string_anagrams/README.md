@@ -1,10 +1,10 @@
-# Permutation in a String
+# String Anagrams
 
 - Pattern: Sliding Window
 
 ## Problem
 
-Given a string and a pattern, return `True` if the string contains any permutation of the pattern.
+Given a string and a pattern, return a list of starting indices of the anagrams of the pattern in the given string.
 
 ## Notes
 
@@ -18,4 +18,4 @@ Given a string and a pattern, return `True` if the string contains any permutati
   2. Count the frequencies of each character in the pattern using a hashmap.
   3. During the iteration, increment the `matched` counter when the frequency target is met.
   4. Decrement the `matched` counter when the condition is no longer met.
-  5. Return `True` when the `matched` counter equals the number of unique characters in the pattern.
+  5. Append the starting window index when the `matched` counter equals the number of unique characters in the pattern.
