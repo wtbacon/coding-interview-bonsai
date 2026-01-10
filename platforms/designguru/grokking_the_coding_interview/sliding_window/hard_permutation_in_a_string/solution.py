@@ -7,8 +7,8 @@ class Solution:
         for c in pattern:
             char_freq_in_ptn[c] += 1
 
-        # Only increment 'matched' when the window's character count equals the pattern's required count
-        # because you only increment it once per unique character when the frequency target is met.
+        # `matched` explains that the number of distinct characters whose frequency requirement is fully satisfied.
+        # Because the window size is fixed, if all character counts match => it must be a permutation.
         left, matched = 0, 0
         for right in range(len(str1)):
             right_char = str1[right]

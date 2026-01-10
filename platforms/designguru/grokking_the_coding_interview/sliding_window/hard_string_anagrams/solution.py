@@ -9,6 +9,8 @@ class Solution:
         for c in pattern:
             char_freq_in_ptn[c] += 1
 
+        # `matched` explains that the number of distinct characters whose frequency requirement is fully satisfied.
+        # Because the window size is fixed, if all character counts match => it must be an anagram.
         left, matched = 0, 0
         for right in range(len(str1)):
             char_right = str1[right]
