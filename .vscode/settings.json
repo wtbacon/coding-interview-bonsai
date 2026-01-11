@@ -10,5 +10,5 @@
     "**/fast_and_slow_pointers/**",
     "**/sliding_window/**"
   ],
-  "cSpell.words": ["nums", "Subarray"]
+  "cSpell.words": ["nums", "Subarray", "Subarrays"]
 }

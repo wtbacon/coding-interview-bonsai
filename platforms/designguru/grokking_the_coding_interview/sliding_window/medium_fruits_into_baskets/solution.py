@@ -6,17 +6,17 @@ class Solution:
         max_length = 0
         fruit_freq = defaultdict(int)
         sum_fruits = 0
-        left = 0
+        window_start = 0
 
-        for right in range(len(fruits)):
-            fruit_freq[fruits[right]] += 1
+        for window_end in range(len(fruits)):
+            fruit_freq[fruits[window_end]] += 1
             sum_fruits += 1
 
             while len(fruit_freq) > 2:
-                fruit_freq[fruits[left]] -= 1
-                if fruit_freq[fruits[left]] == 0:
-                    fruit_freq.pop(fruits[left])
-                left += 1
+                fruit_freq[fruits[window_start]] -= 1
+                if fruit_freq[fruits[window_start]] == 0:
+                    fruit_freq.pop(fruits[window_start])
+                window_start += 1
                 sum_fruits -= 1
 
             max_length = max(max_length, sum_fruits)

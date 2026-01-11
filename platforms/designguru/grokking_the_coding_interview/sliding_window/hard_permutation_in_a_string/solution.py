@@ -9,25 +9,25 @@ class Solution:
 
         # `matched` explains that the number of distinct characters whose frequency requirement is fully satisfied.
         # Because the window size is fixed, if all character counts match => it must be a permutation.
-        left, matched = 0, 0
-        for right in range(len(str1)):
-            right_char = str1[right]
-            if right_char in char_freq_in_ptn:
-                char_freq_in_ptn[right_char] -= 1
-                if char_freq_in_ptn[right_char] == 0:
+        window_start, matched = 0, 0
+        for window_end in range(len(str1)):
+            window_end_char = str1[window_end]
+            if window_end_char in char_freq_in_ptn:
+                char_freq_in_ptn[window_end_char] -= 1
+                if char_freq_in_ptn[window_end_char] == 0:
                     matched += 1
 
             if len(char_freq_in_ptn) == matched:
                 return True
 
-            if right >= len(pattern) - 1:
-                left_char = str1[left]
-                if left_char in char_freq_in_ptn:
-                    if char_freq_in_ptn[left_char] == 0:
+            if window_end >= len(pattern) - 1:
+                window_start_char = str1[window_start]
+                if window_start_char in char_freq_in_ptn:
+                    if char_freq_in_ptn[window_start_char] == 0:
                         matched -= 1
-                    # Need to increment after check whether the 'left_char' frequency is 0
+                    # Need to increment after check whether the 'window_start_char' frequency is 0
                     # because you can't know whether it matched when the pattern contains duplicated characters.
-                    char_freq_in_ptn[left_char] += 1
-                left += 1
+                    char_freq_in_ptn[window_start_char] += 1
+                window_start += 1
 
         return False
