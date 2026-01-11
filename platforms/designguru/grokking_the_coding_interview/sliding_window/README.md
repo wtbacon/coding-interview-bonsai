@@ -12,3 +12,4 @@
 | 🔺 | [Permutation in a String](platforms/designguru/grokking_the_coding_interview/sliding_window/hard_permutation_in_a_string) | Hard | 2026-01-08 |     |     |
 | 🔺 | [String Anagrams](platforms/designguru/grokking_the_coding_interview/sliding_window/hard_string_anagrams) | Hard | 2026-01-10 |     |     |
 | 🔺 | [Smallest Window Containing Substring](platforms/designguru/grokking_the_coding_interview/sliding_window/hard_smallest_window_containing_substring) | Hard | 2026-01-10 |     |     |
+| 🔺 | [Words Concatenation](platforms/designguru/grokking_the_coding_interview/sliding_window/hard_words_concatenation) | Hard | 2026-01-11 |     |     |
